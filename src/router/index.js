@@ -12,6 +12,7 @@ const routes = [
     {path: "/hawaii", name: "Hawaii", component: ()=>import("@/views/Hawaii.vue")},
     {path: "/panama", name: "Panama", component: ()=>import("@/views/Panama.vue")},
     {path: "/jamaica", name: "Jamaica", component: ()=>import("@/views/Jamaica.vue")},
+    {path:"/destination/:id", component: ()=>import("@/views/DestinationShow.vue")}
 ]
 
 const router = createRouter({
